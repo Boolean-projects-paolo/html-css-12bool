@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  
 }
+
+
 
 .container{
     max-width: 1200px;
@@ -12,15 +15,28 @@
 }
 
 .sub-container{
-    padding: 0.8rem;
+    padding: 10px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
 
+/* .sub-container{
+    padding: 0.8rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+} */
+
 .row{
     display: flex;
     flex-wrap: wrap;
+}
+
+.col{
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
 }
 
 /* Larghezza colonne */
